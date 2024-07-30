@@ -1,0 +1,161 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image:url(Photos/Pattern.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+}
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.macondo-swash-caps-regular {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#navBar {
+  font-family: "Macondo", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: black;
+}
+
+#tribute-link:hover {
+  color: tan;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: auto;
+}
+  
+li {
+  list-style: none;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+figcaption {
+  display: none;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url(Photos/ripped-paper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 140%;
+}
+
+#image {
+  display:block;
+  width: 80%;
+  margin: auto;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#title {
+  font-family: "Macondo Swash Caps", cursive;
+  font-size:90px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+#facts {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#featured-quote {
+  font-family: "Macondo", cursive;
+  font-size:35px;
+  color: black;
+  margin-top: 30px;
+} 
+
+#more-quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Macondo", cursive;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+#list-quotes {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-quote {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sentence {
+  font-family: "Macondo", cursive;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.book {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+
